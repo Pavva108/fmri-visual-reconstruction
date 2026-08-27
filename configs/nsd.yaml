@@ -1,0 +1,23 @@
+dataset: nsd
+subjects:
+  train: [1, 2]
+  val: [5]
+  test: [7]
+voxel_features:
+  subject_1: 15724
+  subject_2: 14278
+  subject_5: 13039
+  subject_7: 12682
+tr_seconds: 1.6
+sequence_length: 20
+input_dim: 128
+latent_dim: 256
+transformer_layers: 4
+attention_heads: 8
+ff_dim: 512
+dropout: 0.1
+clip_dim: 512
+dino_dim: 768
+reported_processed_samples: 111000
+retrieval_top_k: 5
+data_efficiency_hours: [1, 7, 40]

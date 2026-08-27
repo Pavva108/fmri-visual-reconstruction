@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# fMRI / Large datasets
+# =========================
+Dataset/
+data/
+datasets/
+
+# Neuroimaging files
+*.nii
+*.nii.gz
+*.h5
+*.hdf5
+*.mat
+
+# =========================
+# Model checkpoints
+# =========================
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# =========================
+# Experiment / training caches
+# =========================
+.cache/
+wandb/
+runs/
+
+# =========================
+# Generated outputs
+# =========================
+outputs/figures/*
+outputs/reconstructions/*
+outputs/results/*
+outputs/results
+tmp_align_results.json
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db

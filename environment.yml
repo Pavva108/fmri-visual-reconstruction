@@ -1,0 +1,28 @@
+name: fmri-visual-reconstruction
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pandas
+  - matplotlib
+  - nibabel
+  - nilearn
+  - h5py
+  - pillow
+  - pyyaml
+  - tqdm
+  - pip:
+      - open_clip_torch
+      - transformers
+      - diffusers
+      - accelerate
+      - safetensors
+      - jupyter

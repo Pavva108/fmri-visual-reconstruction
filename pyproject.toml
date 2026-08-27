@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fmri-visual-reconstruction"
+version = "0.1.0"
+description = "Reusable components for subject-agnostic fMRI visual reconstruction experiments."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "scikit-image",
+  "matplotlib",
+  "nibabel",
+  "nilearn",
+  "h5py",
+  "Pillow",
+  "PyYAML",
+  "torch",
+  "torchvision",
+  "tqdm"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

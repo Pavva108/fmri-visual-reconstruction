@@ -1,0 +1,22 @@
+dataset: live
+subjects:
+  train: [1, 2, 3, 4]
+  val: [5]
+  test: [6]
+bold_shape: [147, 144, 36, 165]
+tr_seconds: 3.0
+preprocessing:
+  roi: VT
+  detrend: true
+  bandpass: [0.01, 0.1]
+  voxelwise_standardization: true
+sequence_length: 20
+input_dim: 128
+latent_dim: 256
+transformer_layers: 4
+attention_heads: 8
+ff_dim: 512
+dropout: 0.1
+clip_dim: 512
+dino_dim: 768
+retrieval_top_k: 5
